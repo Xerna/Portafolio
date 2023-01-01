@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Secular+One&display=swap'); 
+body{
+     font-family: 'Lato', sans-serif;;
+     font-weight: 400;
+    }
+.tittle{
+    font-family: 'Secular One', sans-serif;
+}
+.btn{
+    font-family: 'Lato', sans-serif;;
+    font-weight:700;
+}   
+.active-cstom{
+    color: #D95252;
+}
+.circle{
+    border-radius: 100%;
+    background-color: #D95252;
+    height: 20rem;
+    width: 20rem;
+}
+.mt-7{
+    margin-top: 7rem;
+}
+.ms-7{
+    margin-left: 7rem;
+}
+#intro{
+    font-size: 3.5rem;
+}
+.red-span{
+    color:#D95252;
+    font-weight: 900;
+}
+.divider,.divider-80{
+    width: 100%;
+    border-top: 1px solid black;
+    height: 1rem;
+}
+.divider-80{
+    border-top: 1px solid rgb(60, 60, 60);
+    height: 1rem;
+    width: 80%;
+}
+.bg-danger{
+    background-color: #D95252;
+}
+.text-danger{
+    color: #D95252;
+}
+.tittle-2{
+    font-family: 'Secular One', sans-serif;
+    color: #D95252;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.project-item {  
+    width: 20%;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.7fr 0.4fr 0.7fr 0.9fr;
+    grid-auto-columns: 1fr;
+    gap: 3px 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Project-image"
+      "Project-tittle"
+      "Project-description"
+      "Project-link";
+  }
+  
+  .Project-image { grid-area: Project-image;  display: flex; align-items: center;}
+  
+  .Project-tittle { grid-area: Project-tittle; padding-top: 1rem; }
+  
+  .Project-description { grid-area: Project-description;  }
+  
+  .Project-link { grid-area: Project-link; }
+  
+  .about-me{
+    width: 50%;
+  }
+  .card-body{
+    border: none;
+  }
+  #prog-lang{
+    width: 40%;
+  }
+  #frameworks{
+    width: 40%;
+  }
+  .divider-ver{
+    height: 10rem;
+    border-left: 1px solid #D95252;
+    width: 1rem;
+  }
+  
