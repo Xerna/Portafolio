@@ -108,3 +108,6 @@ inpur{
 .form-control::placeholder{
     color: white;
 }
+.footer{
+    height: 8rem;
+}
