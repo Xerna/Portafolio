@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Secular+One&display=swap'); 
-body{
+body,h6{
      font-family: 'Lato', sans-serif;;
      font-weight: 400;
-    }
+    } 
 .tittle{
     font-family: 'Secular One', sans-serif;
+}
+inpur{
+    color: white;
 }
 .btn{
     font-family: 'Lato', sans-serif;;
@@ -97,3 +100,11 @@ body{
     width: 1rem;
   }
   
+  .bg-red-lighter{
+    color: white;
+    background-color: #ff7272;
+  }
+
+.form-control::placeholder{
+    color: white;
+}
